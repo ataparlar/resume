@@ -1,0 +1,269 @@
+\documentclass[10pt,a4paper]{article}
+
+% --- Packages ---
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{mathptmx} % Requires texlive-fontsrecommended
+\usepackage[tracking=true,letterspace=-20]{microtype}
+\usepackage[hmargin=1in,vmargin=0.5in]{geometry}
+\usepackage{xcolor}
+\usepackage{enumitem}
+\usepackage{hyperref}
+\usepackage{titlesec}
+\usepackage{array}
+\usepackage{longtable}
+\usepackage{fontawesome5}
+
+% --- Custom Colors ---
+\definecolor{cvblue}{RGB}{0, 32, 96}
+\definecolor{contactblue}{RGB}{22, 147, 203}
+
+% --- Style Settings ---
+\setlist[itemize]{leftmargin=1.5em, nosep, label=\textbullet}
+\pagestyle{empty}
+
+% Section formatting
+\titleformat{\section}{\large\bfseries\color{cvblue}\uppercase}{}{0pt}{}[\titlerule]
+\titlespacing{\section}{0pt}{12pt}{8pt}
+
+\begin{document}
+% Enable the negative letterspacing globally
+%\lsstyle
+
+% --- Header ---
+\noindent {\large\bfseries ATA PARLAR} \\
+\textit{\textbf{Geomatics Engineer / Localization and Mapping Engineer}} \\
+% \vspace{2pt}
+% \small
+{\color{contactblue} \faPhone} \ +90 507 476 60 99 \\
+{\color{contactblue} \faEnvelope} \ \href{mailto:ataparlar@outlook.com}{ataparlar@outlook.com} \\
+{\color{contactblue} \faLinkedin} \ \href{https://www.linkedin.com/in/ata-parlar-8637971b4/}{https://www.linkedin.com/in/ata-parlar-8637971b4/}
+
+% --- Profile Section ---
+\vspace{-5pt}
+\section{Profile}
+\vspace{-5pt}
+\noindent A highly qualified and results-oriented Mapping Software Engineer with a strong foundation in Geomatics and extensive experience developing advanced software solutions for autonomous vehicles and mobile mapping systems. Combining academic expertise in Geographical Information Technologies (M.Sc.) with proven practical success in sensor fusion (GNSS, LiDAR, cameras), localization pipelines, and high-definition (HD) map generation, I specialize in bridging research-grade concepts with robust real-world mapping, robotics and autonomous systems applications. My career includes successfully leading multidisciplinary engineering teams, implementing innovative technical solutions using ROS, and fostering collaboration between software, hardware, and data analysis disciplines. I am passionate about dynamic problem-solving and committed to advancing technology in the field of autonomous mobility.
+
+\vspace{-5pt}
+
+% --- Present Position / Summary ---
+% \begin{description}[font=\color{cvblue}\bfseries, leftmargin=3.5cm, style=nextline]|
+%     \item[Present position:]
+%     \begin{itemize}
+%         \item Coordinator of Smart / Intelligent Transportation Systems at Institution Name.
+%         \item Lecturer at University Name, Informatics Institute.
+%     \end{itemize}
+
+%     \item[Years within the firm:]
+%     \begin{itemize}
+%         \item 12 years, Current Primary Organization.
+%         \item 6 years, Secondary University.
+%     \end{itemize}
+
+%     \item[Key qualifications:]
+%     \begin{itemize}
+%         \item Integrating smart technologies into urban planning.
+%         \item Leading projects related to urban informatics and GIS.
+%         \item Implementing innovative mobility solutions.
+%     \end{itemize}
+% \end{description}
+
+% --- Work Experience ---
+\section{Work Experience}
+\noindent{\color{cvblue}\bfseries PROFESSIONAL}
+
+\vspace{-5pt}
+
+\begin{longtable}{@{} p{0.75\textwidth} | >{\centering\arraybackslash}p{0.2\textwidth} @{}}
+
+  \textbf{Hyperever} & \textbf{01/2025 -- 02/2026} \\
+  \vspace{-5pt}
+  \quad \textbf{\color{cvblue}Navigation and Mapping Software Engineer} & 01/2025 -- 02/2026 \\ [-5pt]
+  \begin{itemize}
+    \item Creating the mapping pipeline for the backpack mobile mapping system HyperMapper and testing it in various environments.
+    \item Establishing sensor fusion pipeline of the HyperMapper with GNSS, IMUs, LiDARs and cameras.
+    \item Integrating the localization pipeline for the quadruped robot and the HyperMapper for self awareness.
+    \item Creating various simulation environments for testing the autonomous navigation of the quadruped robot and the HyperMapper.
+    \item Establishing a pipeline for quadruped navigation in obstacled areas.
+    \item Testing various sensors for autonomous navigation and mapping purposes.
+  \end{itemize} & \\ [10pt]
+
+  \vspace{-2pt}
+  \textbf{Leo Drive} & \textbf{06/2022 -- 12/2024} \\
+  \vspace{-5pt}
+  \quad \textbf{\color{cvblue}Mapping and Localization Software Engineer} & 07/2023 -- 12/2024 \\ [-5pt]
+  \begin{itemize}
+    \item Working on Autoware Labs project, establishing a mapping and localiation pipeline in the road tunnels.
+    \item Developing the mapping and localization pipeline for autonomous vehicles.
+    \item Creating a smart HD-Map generation program for autonomous vehicles in various formats.
+    \item Writing open-source point cloud map and HD-Map generation programs.
+    \item Collecting and processing the geo mapping data from different project areas.
+  \end{itemize} & \\ [10pt]
+
+  \vspace{-5pt}
+  \quad \textbf{\color{cvblue}Mapping and Localization Intern} & 06/2022 -- 06/2023 \\ [-5pt]
+  \begin{itemize}
+    \item Working on Autoware project, testing the mapping and localiation pipelines.
+    \item Providing data to localization pipeline.
+    \item Collecting and processing the mapping data from different project areas.
+  \end{itemize} & \\[ 10pt]
+
+  \vspace{-2pt}
+  \textbf{Nutzentech} & \textbf{08/2020 -- 02/2022} \\ [5pt]
+  \quad \textbf{\color{cvblue}Autonomous Flight Software Engineer} & 08/2020 -- 02/2022 \\ [-5pt]
+  \begin{itemize}
+    \item Configuration of autonomous driving algorithms with ROS and MAVSDK.
+    \item Production of 3D models using UAV photogrammetry.
+  \end{itemize} & \\ [10pt]
+
+  \vspace{-2pt}
+  \textbf{Bilgisayar Analiz Merkezi - Fer Elektronik San. ve Tic. Ltd. Şti.} & \\ [-5pt]
+  \begin{itemize}
+    \item Bilgisayar Analiz Merkezi is a company operating in the information technology sector, providing technical service and maintenance for electronic and mechanical devices such as computers, printers, and monitors to its customers.
+    \item Entry-level electronic repairs, good manual dexterity.
+  \end{itemize} & \\ [10pt]
+
+\end{longtable}
+
+\vspace{-15pt}
+
+% --- Educational Background ---
+\section{Educational Background}
+% \noindent{\color{cvblue}\bfseries ACADEMIC}
+\vspace{-15pt}
+
+\begin{longtable}{@{} p{0.75\textwidth} | >{\centering\arraybackslash}p{0.2\textwidth} @{}}
+  \textbf{Istanbul Technical University (ITU)} & \textbf{09/2024 -- Now} \\
+  \vspace{-8pt}
+  \quad \textbf{\color{cvblue}Geographical Information Technologies M.Sc.} & \\
+  \vspace{-5pt}
+
+  \textbf{Istanbul Technical University (ITU)} & \textbf{09/2018 -- 09/2023} \\
+  \vspace{-8pt}
+  \quad \textbf{\color{cvblue}Geomatics Engineering B.Sc.} & GPA: 2.99 / 4.00 \\ [10pt]
+
+  % \vspace{-8pt}
+  % \textbf{Güneşli Final Science High School} & \textbf{2014 -- 2018} \\ [10pt]
+
+  % \vspace{-8pt}
+  % \textbf{Güneşli Final Middle School} & \textbf{2011 -- 2014} \\ [10pt]
+\end{longtable}
+
+\vspace{-5pt}
+
+\noindent{\color{cvblue}\bfseries VOLUNTEER PROJECTS}
+\vspace{-5pt}
+\begin{longtable}{@{} p{0.75\textwidth} | >{\centering\arraybackslash}p{0.2\textwidth} @{}}
+  \textbf{ITU Rover Team} & \textbf{2019 -- 2022} \\ [5pt]
+  \quad \textbf{\color{cvblue}Software Team Member} & 2021 -- 2022 \\ [-5pt]
+  \begin{itemize}
+    \item Configured the indoor and outdoor positioning and mapping system of the 22'Rover vehicle to meet accuracy and precision standards.
+    \item Took part in tasks within the autonomous driving team.
+    \item Soldered components of self-produced circuits onto PCBs.
+  \end{itemize} & \\ [10pt]
+
+  \vspace{-5pt}
+  \quad \textbf{\color{cvblue}Electroware Team Member} & 2020 -- 2021 \\ [-5pt]
+  \begin{itemize}
+    \item Achieved 2nd place in the 2021 ERC (European Rover Challenge).
+    \item Wired the 21'Rover vehicle, wrote code for robot arm forward kinematics and drive system electronic drive systems in C\#, and configured PID code.
+  \end{itemize} & \\ [10pt]
+
+  \vspace{-5pt}
+  \quad \textbf{\color{cvblue}Software Team Member} & 2019 -- 2020 \\ [-5pt]
+  \begin{itemize}
+    \item Achieved 3rd place in the 2020 URC (University Rover Challenge).
+    \item Developed the ROS and JS-based interface of the 20'Rover vehicle, implemented AR Tag detection with OpenCV and ready packages, revised the team website, and refreshed it with Python Django. \href{http://www.rover.itu.edu.tr}{www.rover.itu.edu.tr}
+  \end{itemize} & \\ [10pt]
+
+  \vspace{-2pt}
+  \textbf{ITU Geodesy and Photogrammetry Student Club} & \textbf{2018 -- 2022} \\ [5pt]
+  {\leftskip=1em ITU Geodesy and Photogrammetry Student Club is the professionalism club of ITU Geomatics Engineering Department.\par} & \\ [5pt]
+
+  \vspace{-5pt}
+  \quad \textbf{\color{cvblue}31st Term Board President} & 2021 -- 2022 \\ [-5pt]
+  \begin{itemize}
+    \item As ITU JFK, we strive to establish communication and outreach not only within ITU but also with all geomatics and surveying engineering students across the country. Collaborating with HKMO, we organize events such as GeoTalks, GeoEducations, GeoContests series, and the GeoSum'22 summit to provide the vision and skills future engineers need to adapt the oldest profession, like surveying, to the new era.
+  \end{itemize} & \\ [10pt]
+
+  \vspace{-5pt}
+  \quad \textbf{\color{cvblue}30th Term Board Treasurer} & 2020 -- 2021 \\ [-5pt]
+  \begin{itemize}
+    \item Various educational and panel organizations.
+    \item Python Django training.
+    \item Serving as an instructor and guest for various events under HKMO.
+    \item Hosting the GeoSum'21 summit.
+    \item Taking on the role of club visual designer.
+  \end{itemize} & \\ [10pt]
+
+  \vspace{-5pt}
+  \quad \textbf{\color{cvblue}29th Term Board Treasurer} & 2019 -- 2020 \\ [-5pt]
+  \begin{itemize}
+    \item Various educational and panel organizations.
+    \item Taking on the role of club visual designer.
+  \end{itemize} & \\ [10pt]
+
+  \vspace{-5pt}
+  \quad \textbf{\color{cvblue}28th Term Club Member} & 2018 -- 2019 \\ [-5pt]
+  \begin{itemize}
+    \item Taking on the role of club visual designer.
+    \item Organizing membership for the first-ever geomatics student summit in Turkey, GeoSum.
+    \item \href{http://www.jfk.itu.edu.tr}{www.jfk.itu.edu.tr}
+  \end{itemize} & \\ [10pt]
+
+\end{longtable}
+
+\vspace{-5pt}
+
+\section{Expertise}
+\vspace{-5pt}
+\begin{tabular}{@{} p{0.45\textwidth} p{0.45\textwidth} @{}}
+  \textbullet \ Autonomous Vehicles & \textbullet \ Robot Localization \\
+  \textbullet \ Reality Mapping & \textbullet \ Positioning Systems \\
+  \textbullet \ Geodesy and Projections & \textbullet \ Geographical Information Systems \\
+  \textbullet \ HD-Maps & \textbullet \ UAV Mapping \\
+  \textbullet \ Point Clouds & \textbullet \ Mobile Mapping \\
+  \textbullet \ Mapping & \textbullet \ Sensor Fusion \\
+\end{tabular}
+
+\vspace{10pt}
+\section{Software Skills}
+\vspace{-5pt}
+\begin{tabular}{@{} p{0.45\textwidth} p{0.45\textwidth} @{}}
+  \textbullet \ ROS2 & \textbullet \ GIS Softwares \\
+  \textbullet \ Autoware & \textbullet \ XML, Yaml \\
+  \textbullet \ PostGIS & \textbullet \ MAVLink - MAVSDK \\
+  \textbullet \ PostgreSQL & \textbullet \ Linux, Arch, Ubuntu \\
+  \textbullet \ Python, C++ & \textbullet \ MS Office \\
+  \textbullet \ Object Oriented Programming & \textbullet \ Adobe Photoshop \\
+  \textbullet \ Git & \\
+\end{tabular}
+
+\vspace{10pt}
+\section{Additional Educations \& Certificates}
+\vspace{-5pt}
+\begin{itemize}
+  \item NVIDIA Deep Learning Institute - Introduction to Deep Learning \\
+    \url{https://courses.nvidia.com/certificates/557179dae2cb473ab8ea57265f488bde}
+\end{itemize}
+
+\vspace{10pt}
+\section{Licenses}
+\vspace{-5pt}
+\begin{itemize}
+  \item Driving Licence: B Class
+  \item UAV 0 \& UAV 1 Commercial Pilot Certificate
+\end{itemize}
+
+\vspace{10pt}
+\section{Foreign Languages}
+\vspace{-5pt}
+\begin{tabular}{@{} p{0.3\textwidth} p{0.3\textwidth} @{}}
+  \textbf{\color{cvblue}English} \\
+  Speaking: Good \\
+  Writing: Good \\
+  Reading: Good \\
+\end{tabular}
+
+\end{document}
